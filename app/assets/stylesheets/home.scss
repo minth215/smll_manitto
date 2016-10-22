@@ -1,0 +1,153 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.btn.btn-outline.orange.active, .btn.btn-outline.orange:active, .btn.btn-outline.orange:active:focus, .btn.btn-outline.orange:active:hover, .btn.btn-outline.orange:focus, 
+.btn.btn-outline.orange:hover{
+  border-color:#fa7a33;
+  color:#fff;
+  background-color:#fa7a33;
+}
+
+.btn.btn-outline.darkyellow.active, .btn.btn-outline.darkyellow:active, .btn.btn-outline.darkyellow:active:focus, .btn.btn-outline.darkyellow:active:hover, .btn.btn-outline.darkyellow:focus, 
+.btn.btn-outline.darkyellow:hover{
+  border-color:#ffcb4d;
+  color:#fff;
+  background-color:#ffcb4d;
+}
+
+.btn.btn-outline.grey.active, .btn.btn-outline.grey:active, .btn.btn-outline.grey:active:focus, .btn.btn-outline.grey:active:hover, .btn.btn-outline.grey:focus, 
+.btn.btn-outline.grey:hover{
+  border-color:#cecece;
+  color:#fff;
+  background-color:#cecece;
+}
+
+.btn.btn-outline.skyblue.active, .btn.btn-outline.skyblue:active, .btn.btn-outline.skyblue:active:focus, .btn.btn-outline.skyblue:active:hover, .btn.btn-outline.skyblue:focus, 
+.btn.btn-outline.skyblue:hover{
+  border-color:#6fb7e9;
+  color:#fff;
+  background-color:#6fb7e9;
+}
+
+.btn.btn-outline.pink.active, .btn.btn-outline.pink:active, .btn.btn-outline.pink:active:focus, .btn.btn-outline.pink:active:hover, .btn.btn-outline.pink:focus, 
+.btn.btn-outline.pink:hover{
+  border-color:#e8b6b5;
+  color:#fff;
+  background-color:#e8b6b5;
+}
+
+.btn.btn-outline.orange{
+  border-color:#fa7a33;
+  color:#fa7a33;
+  background: 0 0;
+}
+
+.btn.btn-outline.darkyellow{
+  border-color:#ffcb4d;
+  color:#ffcb4d;
+  background: 0 0;
+}
+
+.btn.btn-outline.grey{
+  border-color:#b7b7b7;
+  color:#b7b7b7;
+  background: 0 0;
+}
+
+.btn.btn-outline.skyblue{
+  border-color:#63acdf;
+  color:#63acdf;
+  background: 0 0;
+}
+
+.btn.btn-outline.pink{
+  border-color:#e8b6b5;
+  color:#e8b6b5;
+  background: 0 0;
+}
+
+.btn:hover{
+  transition:all .3s;
+}
+
+.btn.focus, .btn:focus, .btn:hover{
+  color:#333;
+  text-decoration:none;
+}
+
+a:active, a:focus, a:hover{
+  outline:0;
+}
+
+.btn-circle {
+  border-radius:25px!important;
+  overflow:hidden;
+}
+
+.btn, .form-control{
+  box-shadow: none!important;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+  padding:5px 10px;
+  font-size:12px;
+  line-height:1.5;
+  border-radius:3px;
+}
+
+// squarebtn
+.btn-darkyellow:hover {
+  background-color: #c9a434;
+  border-bottom-color: #CEA612;
+}
+
+button.btn-darkyellow {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  padding: 2px 10px;
+  line-height: 1.5;
+}
+
+.btn-darkyellow {
+  padding: 3px 10px;
+  color: white;
+  background-color: #e3b937;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-pink:hover {
+  background-color: #d2a4a3;
+  border-bottom-color: #d2a4a3;
+}
+
+button.btn-pink {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  padding: 2px 10px;
+  line-height: 1.5;
+}
+
+.btn-pink {
+  padding: 3px 10px;
+  color: white;
+  background-color: #e8b6b5;
+  border: 0;
+  cursor: pointer;
+}
+
+// backgroundimg
+.fixed-background {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  overflow: hidden;
+}
+
+.border-search-pink {
+  max-width: 200px;
+  padding: 5px 5px 5px;
+  margin: 0 900px;
+  background-color: #e8b6b5;
+  border: 1px solid #e8b6b5;
+  border-radius:10px;
+}

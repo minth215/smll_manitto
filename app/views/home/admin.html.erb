@@ -1,0 +1,10 @@
+<h1 align="center"><strong>잃어버린 한 사람을 찾아서<strong></h1>
+<p align="right"><%= @num %>명 완료</p>
+<br>
+<% @manittos.each do |f| %>
+  <% unless f.love %>
+    <div class="col-md-4">
+      <h2><%= f.who %><h2>
+    </div>
+  <% end %>
+<% end %>
